@@ -34,11 +34,11 @@ def how_many_steps?
       puts "Left"
     else 
       puts "Right"
+    sleep(0.5)
     end 
 end
 how_many_steps?
 
-puts "sleeps(0.5)"
 
 def break_dance
   steps = 0  
@@ -48,12 +48,11 @@ def break_dance
       puts "Left"
     else 
       puts "Right"
+    sleep(0.5)
+  if steps == 6
+    
     end 
-    if steps == 6
-      break 
-    end
 end
-break_dance 
 
 
 
