@@ -40,7 +40,6 @@ end
 
 how_many_steps?
 
-
 def break_dance
   steps = 0  
   while 
@@ -51,6 +50,7 @@ def break_dance
       puts "Right"
     sleep(0.5)
   if steps == 6
+    break 
     
     end 
 end
