@@ -29,6 +29,7 @@ end
 def how_many_steps?
   steps = 0  
   0 += 1  
+  puts "#{steps}"
   
   
 end
