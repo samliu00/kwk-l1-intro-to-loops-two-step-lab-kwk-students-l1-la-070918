@@ -28,13 +28,17 @@ end
 
 def how_many_steps?
   steps = 0  
-  steps += 1  
-  puts "#{steps}"
-  if steps / 2 == true 
-  puts
-  
-  
+  while 
+    steps += 1  
+    if steps % 2 == 0 
+      puts "Left"
+    else 
+      puts "Right"
+    end 
 end
+how_many_steps?
+
+puts "sleeps(0.5)"
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
