@@ -9,6 +9,8 @@ def first_steps
   sleep(1)
 end
 
+first_steps
+
 def a_few_more_steps
   puts "Right foot back"
   sleep(0.5)
@@ -26,6 +28,9 @@ def a_few_more_steps
   sleep(1)
 end
 
+a_few_more_steps
+
+
 def how_many_steps?
   steps = 0  
   while 
@@ -38,7 +43,7 @@ def how_many_steps?
 end 
 end
 
-
+how_many_steps
 
 def break_dance
   steps = 0  
