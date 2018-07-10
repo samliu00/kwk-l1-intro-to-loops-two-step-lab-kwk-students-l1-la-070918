@@ -30,7 +30,8 @@ def how_many_steps?
   steps = 0  
   steps += 1  
   puts "#{steps}"
-  if steps / 2 
+  if steps / 2 == true 
+  puts
   
   
 end
